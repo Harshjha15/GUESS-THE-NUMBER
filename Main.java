@@ -234,6 +234,7 @@ guess c1=new guess("GUESS THE Number");
 c1.setVisible(true);
 c1.setSize(600,600);
 c1.setcomponents();
+c1.getContentPane().setBackground(new Color(70,80,70));
 c1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
 }
